@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Party_Construction_Center</title>
+	<link rel="icon" type="image/png" href="/Images/favicon/vr.png">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+</head>
+<body>
+	<!-- Navigation Bar -->
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="/Images/VR_Logo.svg" alt="">
+                <span>党史馆</span>
+            </div>
+			<div class="nav-title">- VR党建活动中心 -</div>
+            <div style="display: flex; align-items: center;">
+                <ul>
+                    <li><a href="/index.html">首页</a></li>
+                </ul>
+                <a href="/pages/Login/index.html" class="btn-login">登录</a>
+            </div>
+        </nav>
+    </div>
+
+	<script type="text/javascript" src="pano2vr_player.js"></script>
+	<script type="text/javascript" src="skin.js"></script>
+	<div id="container" style="width: 100%; height: 100vh;">
+		This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.
+	</div>
+
+	<noscript>
+		<p><b>Please enable Javascript!</b></p>
+	</noscript>
+	
+	<!-- <table>
+		<tr>
+			<td><b>Description</b></td>
+			<td>&#20315;&#23665;&#31185;&#23398;&#25216;&#26415;&#23398;&#38498;&#20826;&#24314;&#27963;&#21160;&#20013;&#24515;</td>
+		</tr>
+		<tr>
+			<td><b>Author</b></td>
+			<td>sls</td>
+		</tr>
+		<tr>
+			<td><b>Date/Time</b></td>
+			<td>2022:05:29 15:41:25</td>
+		</tr>
+		<tr>
+			<td><b>Copyright</b></td>
+			<td></td>
+		</tr>
+	</table> -->
+
+	<script type="text/javascript">
+		function hideUrlBar(){}
+		// create the panorama player with the container
+		pano=new pano2vrPlayer("container");
+		// add the skin object
+		skin=new pano2vrSkin(pano);
+		// load the configuration
+		pano.readConfigUrl("1_out.xml");
+		// hide the URL bar on the iPhone
+		setTimeout(function() { hideUrlBar(); }, 10);
+	</script>
+</body>
+</html>

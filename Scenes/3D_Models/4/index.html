@@ -1,0 +1,101 @@
+﻿<html lang="en">
+<head>
+    <title>3DModels_Viewing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/png" href="/Images/favicon/vr.png">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- <a href="#" onClick="javascript :history.back(1);">返回上一页</a> -->
+    
+    <!-- Navigation Bar -->
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="/Images/VR_Logo.svg" alt="">
+                <span>党史馆</span>
+            </div>
+            <div class="searching">
+                <input placeholder="查找..." type="text">
+                <button><span style="font-size: 24px;" class="iconfont icon-search"></span></button>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <ul>
+                    <li><a href="/index.html">首页</a></li>
+                </ul>
+                <a href="/pages/Login/index.html" class="btn-login">登录</a>
+            </div>
+        </nav>
+    </div>
+    <div class="banner-fill"></div>
+
+    <!-- Contents -->
+    <div class="container">
+        <div class="list-area" style="overflow-x: hidden; width: 18vw; height: 100%;">
+            <div class="list-box">
+                <a href="/Scenes/3D_Models/1/index.html" class="list-item">
+                    <img src="./images/Showcase.png" alt="">
+                    <div class="list-text">
+                        <p>红色读物展示台</p>
+                        <p>展示台内包含一些红色书籍以及党史馆的相关照片集</p>
+                    </div>
+                </a>
+                <a href="/Scenes/3D_Models/2/index.html" class="list-item">
+                    <img src="./images/Cannon.png" alt="">
+                    <div class="list-text">
+                        <p>旧式大炮</p>
+                        <p>具有本土文化性质的旧时代加农炮</p>
+                    </div>
+                </a>
+                <a href="/Scenes/3D_Models/3/index.html" class="list-item">
+                    <img src="./images/VR_Headset.png" alt="">
+                    <div class="list-text">
+                        <p>VR眼镜</p>
+                        <p>一款头戴式的VR眼镜设备</p>
+                    </div>
+                </a>
+                <a href="/Scenes/3D_Models/4/index.html" class="list-item" style="border: 2px solid white;">
+                    <img src="./images/Showing_Stage.png" alt="">
+                    <div class="list-text">
+                        <p>电子展示台</p>
+                        <p>红色文化教育方面的电子照片展示台</p>
+                    </div>
+                </a>
+                <a href="/Scenes/3D_Models/5/index.html" class="list-item">
+                    <img src="./images/Screen.png" alt="">
+                    <div class="list-text">
+                        <p>落地显示屏</p>
+                        <p>用于校史党史知识宣传的落地式显示屏</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="content-box">
+            <div class="model-box">
+                <span></span>
+            </div>
+            <div class="details">
+                <div class="text-box">
+                    <span style="font-weight: bold; font-size: 36px;">电子展示台</span>
+                    <span>简介：红色文化教育方面的电子照片展示台</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="application/javascript">
+        var modelUrl = 'models/Showing_Stage.glb'     //定义所使用模型路径
+    </script>
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script src="js/WebGL.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/3dmodel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

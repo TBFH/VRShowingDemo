@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR_Showing</title>
+    <link rel="icon" type="image/png" href="/Images/favicon/vr.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="./Images/VR_Logo.svg" alt="">
+                <span>党史馆</span>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <ul>
+                    <li class="home active"><a href="#home">首页</a></li>
+                    <li class="preview"><a href="#preview">场景预览</a></li>
+                    <li class="intro"><a href="#intro">项目简介</a></li>
+                    <li class="about"><a href="#about">关于我们</a></li>
+                </ul>
+                <a href="/pages/Login/index.html" class="btn-login">登录</a>
+            </div>
+        </nav>
+    </div>
+    <div class="banner-fill"></div>
+
+    <!-- Banner Wrapper -->
+    <div id="home" class="banner-wrapper">
+        <img src="./Images/Banner.jpg" alt="">
+        <div class="banner">
+            <div class="banner-text">
+                <p>虚拟VR党史馆</p>
+                <p class="subheading">新的视觉、新的体验<br>用新的方式体验新的党史馆</p>
+                <a href="./pages/SelectionPage.html" class="btn-start">开始VR之旅</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mode Selection Wrapper -->
+    <div class="mode-wrapper">
+        <a href="/Scenes/3D_Models/1/index.html">
+            <img src="./Images/3D_Checking_Logo.svg" alt="">
+            <div>
+                <p>3D展览品</p>
+                <p>全景3D模型交互</p>
+            </div>
+        </a>
+        <a href="./pages/SelectionPage.html">
+            <img src="./Images/Pano_Logo.svg" alt="">
+            <div>
+                <p>VR全景展厅</p>
+                <p>全景图真实还原场景</p>
+            </div>
+        </a>
+        <a  href="./Scenes/3D_Wandering/index.html">
+            <img src="./Images/3D_Logo.svg" alt="">
+            <div>
+                <p>三维空间漫游</p>
+                <p>720°沉浸式交互</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Showcase_1 Wrapper-->
+    <div id="preview" class="showcase1-wrapper">
+        <div class="showcase1-main">
+            <div class="showcase1-slide">
+                <img src="./Images/Showcase_1/3.jpg" alt="">
+                <img src="./Images/Showcase_1/1.jpg" alt="">
+                <img src="./Images/Showcase_1/2.jpg" alt="">
+                <img src="./Images/Showcase_1/3.jpg" alt="">
+                <img src="./Images/Showcase_1/1.jpg" alt="">
+            </div>
+        </div>
+        <div class="showcase1-btn"></div>
+        <div class="showcase1-icon">
+            <img src="./Images/VR_Glass.svg" alt="">
+        </div>
+    </div>
+
+    <!-- Showcase_2 Wrapper-->
+    <div id="preview1" class="showcase2-wrapper">
+        <div class="showcase2-main">
+            <div class="showcase2-slide">
+                <img src="./Images/Showcase_2/3.jpg" alt="">
+                <img src="./Images/Showcase_2/1.jpg" alt="">
+                <img src="./Images/Showcase_2/2.jpg" alt="">
+                <img src="./Images/Showcase_2/3.jpg" alt="">
+                <img src="./Images/Showcase_2/1.jpg" alt="">
+            </div>
+        </div>
+        <div class="showcase2-btn"></div>
+        <div class="showcase2-icon">
+            <img src="./Images/Magnifying_Logo.svg" alt="">
+        </div>
+    </div>
+
+    <!-- Details Wrapper -->
+    <div id="intro" class="details-wrapper">
+        <div class="details-text">
+            <p>VR全景线上虚拟党史馆展览平台</p>
+            <p>本平台的特点是将VR全景图与3D模型交互巧妙结合，实现VR视角下的3D模型互动功能，同时还提供三维场景的漫游体验</p>
+            <ul>
+                <li>
+                    <img src="./Images/Wandering_Logo.svg" alt="">
+                    <span>三维场景漫游体验</span>
+                </li>
+                <li>
+                    <img src="./Images/3Dmodel_Logo.svg" alt="">
+                    <span>3D模型展示自由交互</span>
+                </li>
+                <li>
+                    <img src="./Images/Panorama_Logo.svg" alt="">
+                    <span>沉浸式全景观览体验</span>
+                </li>
+            </ul>
+            <a href="./pages/SelectionPage.html" class="details-btn">了解更多 -></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="about">
+        <div class="footer-text">
+            <div class="footer-logo">
+                <img src="./Images/VR_Logo.svg" alt="">
+                <span>党史馆</span>
+            </div>
+            <div class="footer-us">
+                <p>联系我们</p>
+                <p>邮箱：2986579627@qq.com</p>
+                <p>地址：佛山科学技术学院B3-501VR实验室</p>
+            </div>
+            <div class="footer-us">
+                <p>关于我们</p>
+                <p>项目介绍</p>
+                <p>关于创元VR团队</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/vue.js"></script>
+</body>
+</html>

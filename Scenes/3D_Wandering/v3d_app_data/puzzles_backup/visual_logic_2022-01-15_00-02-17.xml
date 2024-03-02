@@ -1,0 +1,49 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="680" scrolly="320" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="727.9276359310634" scrolly="281.8305818817755" scale="0.543417677019953">
+    <block xmlns="https://developers.google.com/blockly/xml" type="everyFrame" id=":bnW8Hyf9~_qIM(DfX-W" x="-1250" y="-90">
+      <statement name="DO">
+        <block type="setObjTransform" id="c5kVs/=Nm{@Sru9pkKly">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+          <field name="MODE">position</field>
+          <field name="OFFSET">FALSE</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="?k+o@1N?#zKTp!51t{]p">
+              <field name="FIELDNAME">相机</field>
+            </shadow>
+          </value>
+          <value name="X">
+            <block type="getObjTransform" id="S2O7pT$7pHSXvCIiFC=`">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+              <field name="MODE">position</field>
+              <field name="COORD">x</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="]pfPPm{XnGUR4J{0CP0x">
+                  <field name="FIELDNAME">相机</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="Y">
+            <block type="getObjTransform" id="3lp~kwtv=G(jPBDK}@Ka">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+              <field name="MODE">position</field>
+              <field name="COORD">y</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="gLoeDpRtRKaf9lhrh8Q:">
+                  <field name="FIELDNAME">相机</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="Z">
+            <block type="math_number" id="-Z^.-V4]aZXp_=dYV]A8">
+              <field name="NUM">6.2</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="358" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

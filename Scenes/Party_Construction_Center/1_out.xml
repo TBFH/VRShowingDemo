@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2">
+  <panorama id="node2">
+    <view fovmode="0" pannorth="0">
+      <start pan="48" fov="70" tilt="-8"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2022:05:29 15:41:25" description="佛山科学技术学院党建活动中心" copyright="" tags="" author="sls" source="" comment="" info="欢迎来到党建活动中心" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="党建展览（左）" target="" pan="65.30840000000001" skinid="" url="{node3}" id="Point01" tilt="-12.4316"/>
+      <hotspot title="党建展览（右）" target="" pan="28.6148" skinid="" url="{node1}" id="Point02" tilt="-12.7081"/>
+    </hotspots>
+    <media>
+      <sound ambientlevel="0" pansize="0" mode="1" loop="0" field="90" pan="-1" tiltsize="0" id="_background" level="1" tilt="-1">
+        <source url="郭燕 - 天空之城 (钢琴版).mp3"/>
+      </sound>
+    </media>
+    <input tile0url="images/1_o_0.jpg" prev5url="images/1_o_preview_5.jpg" prev4url="images/1_o_preview_4.jpg" prev3url="images/1_o_preview_3.jpg" prev2url="images/1_o_preview_2.jpg" prev1url="images/1_o_preview_1.jpg" prev0url="images/1_o_preview_0.jpg" tile5url="images/1_o_5.jpg" tilesize="1920" tile4url="images/1_o_4.jpg" tile3url="images/1_o_3.jpg" tilescale="1.005208333333333" tile2url="images/1_o_2.jpg" tile1url="images/1_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node3">
+    <view fovmode="0" pannorth="0">
+      <start pan="312" fov="70" tilt="-1.5"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2022:05:29 15:42:56" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="党建中心门口处" target="" pan="36.2779" skinid="" url="{node2}" id="Point01" tilt="-8.37091"/>
+      <hotspot title="智慧党建活动室" target="" pan="-156.321" skinid="" url="{node4}" id="Point02" tilt="-3.14389"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/2_o_0.jpg" prev5url="images/2_o_preview_5.jpg" prev4url="images/2_o_preview_4.jpg" prev3url="images/2_o_preview_3.jpg" prev2url="images/2_o_preview_2.jpg" prev1url="images/2_o_preview_1.jpg" prev0url="images/2_o_preview_0.jpg" tile5url="images/2_o_5.jpg" tilesize="1920" tile4url="images/2_o_4.jpg" tile3url="images/2_o_3.jpg" tilescale="1.005208333333333" tile2url="images/2_o_2.jpg" tile1url="images/2_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node4">
+    <view fovmode="0" pannorth="0">
+      <start pan="318" fov="81" tilt="1.5"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2022:05:29 15:48:34" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="学校党员活动室" target="" pan="-132.292" skinid="" url="{node5}" id="Point01" tilt="-4.53369"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/3_o_0.jpg" prev5url="images/3_o_preview_5.jpg" prev4url="images/3_o_preview_4.jpg" prev3url="images/3_o_preview_3.jpg" prev2url="images/3_o_preview_2.jpg" prev1url="images/3_o_preview_1.jpg" prev0url="images/3_o_preview_0.jpg" tile5url="images/3_o_5.jpg" tilesize="1920" tile4url="images/3_o_4.jpg" tile3url="images/3_o_3.jpg" tilescale="1.005208333333333" tile2url="images/3_o_2.jpg" tile1url="images/3_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5">
+    <view fovmode="0" pannorth="0">
+      <start pan="312.5" fov="70" tilt="-4"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2022:05:29 15:49:42" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="智慧党建活动室" target="" pan="46.7397" skinid="" url="{node4}" id="Point01" tilt="-1.24555"/>
+      <hotspot title="党建展览（右）" target="" pan="-134.425" skinid="" url="{node1}" id="Point02" tilt="-4.95029"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/4_o_0.jpg" prev5url="images/4_o_preview_5.jpg" prev4url="images/4_o_preview_4.jpg" prev3url="images/4_o_preview_3.jpg" prev2url="images/4_o_preview_2.jpg" prev1url="images/4_o_preview_1.jpg" prev0url="images/4_o_preview_0.jpg" tile5url="images/4_o_5.jpg" tilesize="1920" tile4url="images/4_o_4.jpg" tile3url="images/4_o_3.jpg" tilescale="1.005208333333333" tile2url="images/4_o_2.jpg" tile1url="images/4_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node1">
+    <view fovmode="0" pannorth="0">
+      <start pan="307.5" fov="70" tilt="-10"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2022:05:29 15:50:47" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="党建活动中心门口" target="" pan="91.56480000000001" skinid="" url="{node2}" id="Point01" tilt="-6.8589"/>
+      <hotspot title="党建展览（左）" target="" pan="42.2422" skinid="" url="{node3}" id="Point02" tilt="-3.80348"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/5_o_0.jpg" prev5url="images/5_o_preview_5.jpg" prev4url="images/5_o_preview_4.jpg" prev3url="images/5_o_preview_3.jpg" prev2url="images/5_o_preview_2.jpg" prev1url="images/5_o_preview_1.jpg" prev0url="images/5_o_preview_0.jpg" tile5url="images/5_o_5.jpg" tilesize="1920" tile4url="images/5_o_4.jpg" tile3url="images/5_o_3.jpg" tilescale="1.005208333333333" tile2url="images/5_o_2.jpg" tile1url="images/5_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>

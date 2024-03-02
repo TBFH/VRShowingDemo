@@ -1,0 +1,184 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="591" scrolly="320.00000000000006" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1255.0402556991612" scrolly="58.25305872936633" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="everyFrame" id=":bnW8Hyf9~_qIM(DfX-W" x="-1250" y="-90">
+      <statement name="DO">
+        <block type="setObjTransform" id="c5kVs/=Nm{@Sru9pkKly">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+          <field name="MODE">position</field>
+          <field name="OFFSET">FALSE</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="?k+o@1N?#zKTp!51t{]p">
+              <field name="FIELDNAME">相机</field>
+            </shadow>
+          </value>
+          <value name="X">
+            <block type="getObjTransform" id="S2O7pT$7pHSXvCIiFC=`">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+              <field name="MODE">position</field>
+              <field name="COORD">x</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="]pfPPm{XnGUR4J{0CP0x">
+                  <field name="FIELDNAME">相机</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="Y">
+            <block type="getObjTransform" id="3lp~kwtv=G(jPBDK}@Ka">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+              <field name="MODE">position</field>
+              <field name="COORD">y</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="gLoeDpRtRKaf9lhrh8Q:">
+                  <field name="FIELDNAME">相机</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="Z">
+            <block type="math_number" id="-Z^.-V4]aZXp_=dYV]A8">
+              <field name="NUM">6.2</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="suuH3fZNsm{%4l8Uhkyz">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="EFIP2zFx07}l{K=?1Gb{">
+              <field name="FIELDNAME">ChamferBox001.001</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="openWebPage" id="{-F/k:u396bmLF~bzLC)">
+              <field name="MODE">NEW</field>
+              <value name="URL">
+                <shadow type="text" id="zuy{G.C*?qCqkpa?h}Rt">
+                  <field name="TEXT">./2讲解图1.png</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="}]6A:RPX(Wz30sLo#];|">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="Sl8ZYZLn]CUG+xQ-87Ic">
+                  <field name="FIELDNAME">ChamferBox001.003</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="openWebPage" id="=W]zV^%(heaZqloZ9mZ9">
+                  <field name="MODE">NEW</field>
+                  <value name="URL">
+                    <shadow type="text" id="TVQa0aQ!52x2PL_TY|1L">
+                      <field name="TEXT">./2讲解1.jpg</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="9t%)9hf.9n(UlGY{6fL4">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="H!*K,)(es]e1y_=_-5HK">
+                      <field name="FIELDNAME">ChamferBox002</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="openWebPage" id="Z([7UN|H?|!rXCsG8%/0">
+                      <field name="MODE">NEW</field>
+                      <value name="URL">
+                        <shadow type="text" id="BrsEc_n?+t{fQI(cSHmo">
+                          <field name="TEXT">./2讲解图2.png</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id="a/OWGsO|eh$e7|MjWz9Z">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="U:Pz/z}6C##wEa`|[)i}">
+                          <field name="FIELDNAME">ChamferBox002.001</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="openWebPage" id="$!SuR`60B/d(vZIA7l!:">
+                          <field name="MODE">NEW</field>
+                          <value name="URL">
+                            <shadow type="text" id="r-tj:v!yaz;pPvmyEr/L">
+                              <field name="TEXT">./2讲解2.jpg</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="uRzl8s$`tOgDeA{,0$Fh">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="iCqd:Eciq9PzNe4WJ`M_">
+                              <field name="FIELDNAME">ChamferBox002</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="openWebPage" id="g~]uHT{;semIS%^%YSlr">
+                              <field name="MODE">NEW</field>
+                              <value name="URL">
+                                <shadow type="text" id="JlewZRs`}`9$f=ar^`z#">
+                                  <field name="TEXT">./2讲解图3.png</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="openWebPage" id="a=-XGxb7Z(P!4GIil92t">
+                                  <field name="MODE">NEW</field>
+                                  <value name="URL">
+                                    <shadow type="text" id=":Tz(pJ-Q4p%rgS-h,vxp">
+                                      <field name="TEXT">./2讲解3.jpg</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="358" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
